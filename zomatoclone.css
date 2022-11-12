@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.hero__container {
+    background: url(./images/heroSectionBackground.png);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.navbar {
+    width: 60%;
+    margin-left: 450px;
+    display: flex;
+    padding: 15px 45px;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.navbar_links {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_engine {
+    gap: 20px;
+    display: flex;
+}
+
+.banner_heading {
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_heading img {
+    width: 300px;
+    height: 50px;
+}
+
+.banner_container {
+    padding: 15px 20px;
+    margin-top: 30px;
+    margin-left: 675px;
+    display: inline;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.banner_container .location,
+.searchbar {
+    outline: white;
+}
+
+.banner_container .location {
+    width: 100px;
+    border-right: black;
+}
+
+.banner_container .searchbar {
+    width: 450px;
+}
+
+.promo__container {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card_item {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    border-color: 2px solid black;
+}
+
+.promo_main {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.promo_card:hover {
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+.promo_card {
+    border: 0.5px solid gray;
+    border-radius: 15px;
+}
+
+.promo_content {
+    bottom: 7px;
+    padding-left: 5px;
+    background-color: white;
+    position: absolute;
+    width: 350px;
+    height: 50px;
+}
+
+.items {
+    position: relative;
+}
+
+.headline h2 {
+    margin-left: 410px;
+    margin-top: 50px;
+}
+
+.headline_para {
+    margin-left: 410px;
+    margin-right: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headline h2 {
+    font-weight: 500;
+}
+
+.headline_para span:nth-child(2) {
+    color: #ff7e8b;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.adv_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    height: 300px;
+}
+
+.adv_content {
+    bottom: 5px;
+    left: 0px;
+    padding-left: 5px;
+    position: absolute;
+    color: white;
+    z-index: 5;
+}
+
+.adv_content h3 {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.overlay {
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0.05) 50%,
+            rgba(0, 0, 0, 0.05) 85%);
+    z-index: 5;
+}
+
+.adv_items {
+    position: relative;
+}
+
+.adv_item {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.getapp__container {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    /* height: 450px; */
+    background-color: rgb(255, 251, 247);
+    padding: 3rem 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.getapp_content {
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 400px; */
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.bannerimg {
+    flex: 2;
+}
+
+.bannerimg img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.right {
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.getapp_text h1 {
+    font-weight: 200;
+    font-size: 60px;
+}
+
+.getapp_text span {
+    font-weight: 100px;
+}
+
+.getapp_buttons {
+    display: flex;
+}
+
+.getapp_input {
+    font-weight: 100px;
+}
+
+.getapp_img img {
+    height: 50px;
+}
+
+.getapp_buttons input {
+    height: 15px;
+    width: 15px;
+    accent-color: rgb(239, 79, 95);
+    ;
+}
+
+.getapp_buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.getapp_input input {
+    flex: auto;
+    border: 1.5px solid gray;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+
+.getapp_input button {
+    border: none;
+    background-color: rgb(239, 79, 95);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.getapp_input {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.getapp_img p {
+    font-size: 400;
+    color: gray;
+}
+
+.Footer {
+    width: 100%;
+    /* margin-top: 30px; */
+    display: flex;
+    /* height: 450px; */
+    background-color: whitesmoke;
+    opacity: 110%;
+    padding: 3rem 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fcontent {
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 400px; */
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer_top {
+    display: flex;
+    align-content: space-between;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.logoF {
+    height: 25px;
+}
+
+.righttop {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.righttop button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    width: 90px;
+    border: 1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Footer_middle {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.link_items {
+    display: flex;
+    flex-direction: column;
+}
+
+.link_items h5 {
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 4px;
+    letter-spacing: 0.8px;
+}
+
+.footer_logos {
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.social_links button i {
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_links button {
+    background-color: black;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.disclaimer {
+    width: 90%;
+    margin: auto;
+    color: gray;
+    font-size: 12px;
+    border-top: 1px solid gray;
+    padding-top: 1.5rem;
+}
+
+.Assignment {
+    width: 100%;
+    background-color: rgb(253, 253, 253)
+}
+
+.assgn_content {
+    margin-left: 275px;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.c_top h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.drop {
+    display: flex;
+    width: 70%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(232, 228, 228);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.drop h2 {
+    flex: 1;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.drop button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: white;
+}
+
+.localities__container {
+    width: 100%;
+}
+
+.localities_box {
+    width: 60%;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.localities_heading p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.localities_item {
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(232, 228, 228);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.popular_localities {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.localities_content {
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.popular_item button {
+    background-color: white;
+}
+
+.localities_content h5 {
+    font-size: 20px;
+    font-weight: 300;
+}
