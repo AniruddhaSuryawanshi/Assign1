@@ -633,7 +633,9 @@
         align-items: center;
         justify-content: center;
     }
-
+    .localities_item button{
+     background: white;
+    }
     .drop {
         width: 100%;
     }
